@@ -1,0 +1,526 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* navbar section  */
+.container {
+    margin: 0 20px;
+
+}
+
+.container-main {
+    background-color: rgba(249, 222, 172, 0.615);
+    padding-bottom: 30px;
+}
+
+.brand {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    line-height: 50px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list ul li {
+    display: block;
+    /* background-color: blue; */
+    margin-left: 20px;
+    list-style: none;
+
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/* banner section start  */
+.banner-img img {
+    width: 100%;
+}
+
+.banner-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.banner-text>div {
+    text-align: center;
+}
+
+.banner-text h1 {
+    padding: 20px 0;
+}
+
+.banner-text p {
+    padding: 10px 0;
+}
+
+.banner-text button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* our features section  */
+.features {
+    margin: 30px 0px;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    justify-items: center;
+}
+
+.features-main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.features-text {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.features-text button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+/* features love section  */
+
+.features-love-container {
+    margin: 100px 0px;
+}
+
+.features-love-main {
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+}
+
+.features-love-img img {
+    width: 100%;
+}
+
+.features-love-text-top h2 {
+    border-left: 4px solid orange;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.features-love-text-top span {
+    padding-top: 80px 0px;
+}
+
+.features-love-card>div {
+    background-color: rgba(211, 211, 211, 0.193);
+    padding: 40px 40px 40px 20px;
+    margin-top: 20px;
+}
+
+.features-love-img {
+    position: relative;
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: -10px;
+    text-align: center;
+    left: -40px;
+    background-color: #ff7b00d9;
+    color: white;
+    padding: 30px 30px;
+}
+
+/* some facts  */
+
+
+/* some facts section */
+.facts-main {
+    margin: 50px 0;
+}
+
+.our-achievement {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    grid-gap: 20px;
+    margin: 20px 0px;
+    
+}
+
+.our-achievement>div {
+    border: 3px solid lightgray;
+    padding: 100px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.99s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.our-achievement>div span {
+    color: white
+}
+
+
+.our-achievement>div:hover {
+    background-color: rgba(19, 244, 154, 0.436);
+    transform: scale(1, 1.033);
+    overflow: hidden;
+}
+
+.facts-text h2 {
+    padding: 20px 0;
+}
+
+
+.facts-text span {
+    padding: 10px 0;
+}
+
+/* what client's say Section  */
+
+.container-client{
+    margin: 50px 0;
+}
+.client-main{
+    position: relative;
+}
+.client-main h2{
+    padding: 20px 0;
+}
+
+.client-comment{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    flex-direction: column;
+    background-color: rgba(248, 246, 246, 0.893);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.client-comment img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 10px 0px;
+}
+
+.client-comment h3{
+    padding: 10px 0;
+}
+
+.client-comment span{
+    padding: 20px 0;
+}
+.client-comment span i{
+    font-size: 50px;
+}
+
+
+.client-thoughts iframe {
+    border-radius: 20px;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    position: relative;
+
+}
+
+
+/* our sponsor section */
+.our-text{
+    text-align: center;
+}
+
+.our-text h2{
+    padding: 20px 0;
+}
+.our-text span{
+    padding: 20px 0;
+}
+.sponsor-list{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-items: center;
+    grid-gap: 6%;
+    margin: 50px 0;
+}
+
+.sponsor-list > img{
+    justify-items: center;
+}
+
+
+/* footer section  */
+.footer-main{
+    margin-top: 100px;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design  */
+@media screen and(max-width: 576px) {
+    .container {
+        margin: 0 40px;
+    }
+
+    .nav-body {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .nav-list ul li {
+        display: block;
+        text-align: right;
+    }
+
+    /* some facts section */
+    .our-achievement {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* our sponsor section */
+    .sponsor-list{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .container {
+        margin: 0 60px;
+    }
+
+    .nav-body {
+
+        grid-template-columns: repeat(2, 1fr);
+
+
+    }
+
+    .nav-list ul li {
+        display: inline;
+
+    }
+
+    /* features section  */
+    .features-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5%;
+        
+    }
+
+    .features-main {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+
+    }
+
+    .features-text {
+        margin-top: 50px;
+    }
+
+    /* some facts section */
+    .our-achievement {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* our sponsor section */
+    .sponsor-list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 3%;
+        margin: 50px 0;
+        justify-items: center;
+    }
+
+}
+
+
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .container {
+        margin: 0 100px;
+
+    }
+
+    .nav-body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-list ul li {
+        display: inline;
+
+    }
+
+    /* banner section  */
+
+    /* features section  */
+    .features-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .features-main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .features-text {
+        margin-top: 50px;
+    }
+
+    /* features love */
+    .features-love-main {
+        display: flex;
+        flex-direction: column;
+    }
+    /* our sponsor section */
+    .sponsor-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 4%;
+        margin: 50px 0;
+        justify-items: center;
+    }
+
+
+}
+
+@media screen and (min-width: 1201px) {
+    .container {
+        margin: 0 200px;
+    }
+
+    .nav-body {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: end;
+    }
+
+    .nav-list ul li {
+        display: inline;
+    }
+
+    .brand {
+        display: flex;
+        justify-content: left;
+    }
+
+    .brand span{
+        color: rgb(255, 7, 7);
+    }
+
+    .nav-list {
+        display: flex;
+        justify-content: end;
+    }
+
+
+    /* features section  */
+
+    .features-img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .features-main {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    /* features love  */
+    .features-love-main {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    /* some facts section */
+    .our-achievement {
+
+        grid-template-columns: repeat(4, 1fr);
+    }
+/* our sponsor section */
+    .sponsor-list{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        grid-gap: 6%;
+        margin: 50px 0;
+        justify-items: center;
+    }
+
+
+}
